@@ -12,3 +12,8 @@ Let's explore how to do this:
 ## Proper Addon Demo
 
 * https://github.com/mesosphere/kubeaddons-demo
+
+
+## My Hello-world
+
+* https://github.com/d2iq-shadowbq/container-hello-world-html-busybox
