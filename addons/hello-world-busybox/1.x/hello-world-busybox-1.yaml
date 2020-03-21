@@ -1,0 +1,18 @@
+apiVersion: kubeaddons.mesosphere.io/v1beta1
+kind: Addon
+metadata:
+  name: hello-world-busybox
+  namespace: kubeaddons
+  labels:
+    kubeaddons.mesosphere.io/name: helloworld
+  annotations:
+    catalog.kubeaddons.mesosphere.io/addon-revision: "0.0.4-1"
+spec:
+  kubernetes:
+    minSupportedVersion: v1.16.0
+    maxSupportedVersion: v1.21.0
+  namespace: kubeaddons
+  chartReference:
+    chart: hello-world-busybox
+    repo: https://d2iq-shadowbq.github.io/d2iq-shadowbq/container-hello-world-html-busybox
+    version: "0.1.4"
