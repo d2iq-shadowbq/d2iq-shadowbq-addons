@@ -25,6 +25,6 @@ Let's explore how to do this:
 
 * https://github.com/mesosphere/kubernetes-sre-addons/
 
-## My Hello-world
+## My Hello-world-busybox container and chart repo
 
 * https://github.com/d2iq-shadowbq/container-hello-world-html-busybox
