@@ -14,5 +14,5 @@ spec:
   namespace: kubeaddons
   chartReference:
     chart: hello-world-busybox
-    repo: https://d2iq-shadowbq.github.io/d2iq-shadowbq/container-hello-world-html-busybox
+    repo: https://d2iq-shadowbq.github.io/container-hello-world-html-busybox/
     version: "0.1.4"
