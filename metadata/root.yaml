@@ -1,0 +1,17 @@
+hello-world-busybox:
+  display_name: Hello World Busybox 
+  description: Hello world busybox is a demo container that shows some web data.
+  logo: hello-world-busybox/logo.svg
+  category: monitoring
+  overview: hello-world-busybox/overview.md
+  resources:
+    provider:
+      title: Personal
+      link: https://d2iq-shadowbq.github.io
+    links:
+      - type: release_notes
+        title: Change Log
+        link: https://github.com/d2iq-shadowbq/d2iq-shadowbq-addons
+      - type: support
+        title: Submit a Support Request
+        link: https://github.com/d2iq-shadowbq/d2iq-shadowbq-addons/issues
