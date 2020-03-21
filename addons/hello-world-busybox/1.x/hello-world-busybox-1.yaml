@@ -4,7 +4,7 @@ metadata:
   name: hello-world-busybox
   namespace: kubeaddons
   labels:
-    kubeaddons.mesosphere.io/name: helloworld
+    kubeaddons.mesosphere.io/name: hello-world-busybox
   annotations:
     catalog.kubeaddons.mesosphere.io/addon-revision: "0.0.4-1"
 spec:
@@ -12,6 +12,17 @@ spec:
     minSupportedVersion: v1.16.0
     maxSupportedVersion: v1.21.0
   namespace: kubeaddons
+  cloudProvider:
+    - name: aws
+      enabled: true
+    - name: azure
+      enabled: true
+    - name: gcp
+      enabled: true
+    - name: docker
+      enabled: true
+    - name: none
+      enabled: true  
   chartReference:
     chart: hello-world-busybox
     repo: https://d2iq-shadowbq.github.io/container-hello-world-html-busybox/
