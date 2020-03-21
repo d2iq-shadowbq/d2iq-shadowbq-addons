@@ -19,6 +19,7 @@ Let's explore how to do this:
 ## Proper Addon Demo
 
 * https://github.com/mesosphere/kubeaddons-demo
+* https://github.com/helm-hello-world/charts (missing the gh-pages!)
 
 ## Existing Addon Demo
 
