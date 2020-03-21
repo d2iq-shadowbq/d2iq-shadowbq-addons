@@ -1,7 +1,7 @@
 hello-world-busybox:
   display_name: Hello World Busybox 
   description: Hello world busybox is a demo container that shows some web data.
-  logo: hello-world-busybox/logo.png
+  logo: hello-world-busybox/hello_world.png
   category: monitoring
   overview: hello-world-busybox/overview.md
   resources:
