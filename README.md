@@ -1,6 +1,13 @@
 # Custom Addon and Registry for Ksphere
 
-There are steps to take a helm chart to an addon on. 
+You will find the following directories here:
+
+`addons/` - containing the actual manifests for addon resources
+`deployments/` - containing the default addons depending on the Kubernetes version
+`metadata/` - containing static metadata for the addons in addons/
+`test/` - containing integration tests for the addons in addons/
+
+## There are steps to take a helm chart to an addon on. 
 
 Let's explore how to do this:
 
