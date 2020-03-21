@@ -1,0 +1,9 @@
+---
+apiVersion: kubeaddons.mesosphere.io/v1beta1
+kind: AddonRepository
+metadata:
+  name: d2iq-shadowbq-addons
+spec:
+  priority: "1"
+  url: "https://github.com/d2iq-shadowbq/d2iq-shadowbq-addons"
+  ref: "master"
