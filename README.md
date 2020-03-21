@@ -13,6 +13,9 @@ Let's explore how to do this:
 
 * https://github.com/mesosphere/kubeaddons-demo
 
+## Existing Addon Demo
+
+* https://github.com/mesosphere/kubernetes-sre-addons/
 
 ## My Hello-world
 
