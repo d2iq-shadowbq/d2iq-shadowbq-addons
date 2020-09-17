@@ -16,12 +16,12 @@ hello-world-busybox:
         title: Submit a Support Request
         link: https://github.com/d2iq-shadowbq/d2iq-shadowbq-addons/issues
 ---
-dashboard:
-  display_name: dashboard
-  description: dashboard
-  logo: dashboard/logo.svg
+k8sdashboard:
+  display_name: k8sdashboard
+  description: k8sdashboard
+  logo: k8sdashboard/logo.svg
   category: other
-  overview: dashboard/overview.md
+  overview: k8sdashboard/overview.md
   resources:
     provider:
       title: Personal
